@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "name": "Mr. John Smith",
+      "email": "teacher@school.com",
+      "password": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+      "role": "teacher"
+    },
+    {
+      "id": "u2",
+      "name": "Alice Johnson",
+      "email": "student@school.com",
+      "password": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+      "role": "student"
+    },
+    {
+      "id": "u3",
+      "name": "Bob Williams",
+      "email": "bob@school.com",
+      "password": "$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+      "role": "student"
+    },
+    {
+      "id": "431a62a3-25e1-4122-a6a7-6b530d5de935",
+      "name": "yash",
+      "email": "yashlahase1234@gmail.com",
+      "password": "$2b$10$Z2lCPfT/xEMA0TLKm.O08uIy8L/farX1ivZbssXFv4cHSEOhCczA6",
+      "role": "student"
+    },
+    {
+      "id": "0ae7bff1-3fff-484e-83d2-ac9fdf7f013a",
+      "name": "sir",
+      "email": "yashlahase12@gmail.com",
+      "password": "$2b$10$rfAvEvgjvYZtyzwjhwCz4uvpVKZjtkl1OQvoC9FRukYoSJGfSNnRO",
+      "role": "teacher"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "a1",
+      "title": "Introduction to Algebra",
+      "description": "Solve the following algebraic equations and show all working steps. Cover linear equations, quadratic formula, and factorization.",
+      "dueDate": "2026-04-30T23:59:00.000Z",
+      "status": "completed",
+      "createdBy": "u1",
+      "createdAt": "2026-04-01T10:00:00.000Z"
+    },
+    {
+      "id": "a2",
+      "title": "World War II Essay",
+      "description": "Write a 500-word essay analyzing the key causes and consequences of World War II, focusing on political, economic, and social factors.",
+      "dueDate": "2026-04-24",
+      "status": "completed",
+      "createdBy": "u1",
+      "createdAt": "2026-04-02T09:00:00.000Z"
+    },
+    {
+      "id": "a3",
+      "title": "Photosynthesis Lab Report",
+      "description": "Document your observations from the photosynthesis experiment. Include hypothesis, materials, procedure, results and conclusion.",
+      "dueDate": "2026-03-15T23:59:00.000Z",
+      "status": "completed",
+      "createdBy": "u1",
+      "createdAt": "2026-03-01T08:00:00.000Z"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "s1",
+      "assignmentId": "a3",
+      "studentId": "u2",
+      "studentName": "Alice Johnson",
+      "answer": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to produce oxygen and energy in the form of sugar. My experiment confirmed that plants exposed to more light produced more oxygen bubbles per minute.",
+      "submittedAt": "2026-03-10T14:30:00.000Z",
+      "reviewed": true
+    }
+  ]
+}
