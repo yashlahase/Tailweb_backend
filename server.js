@@ -10,14 +10,9 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-const allowedOrigins = ['http://localhost:5173', 'http://localhost:5174', 'http://localhost:5175'];
-if (process.env.FRONTEND_URL) {
-  // Allow multiple URLs to be comma separated if needed
-  allowedOrigins.push(...process.env.FRONTEND_URL.split(','));
-}
-
+// Allow any frontend Origin to connect seamlessly (fixes dynamic Vercel URLs!)
 app.use(cors({ 
-  origin: allowedOrigins, 
+  origin: true, 
   credentials: true 
 }));
 app.use(express.json());
